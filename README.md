@@ -11,7 +11,7 @@ By analyzing the function of the controller with different parameters, the syste
 
 <h2> &nbsp;Hydraulic System Model:</h2>
 
-<img src="1.png" width="536" height="317">
+<img src="images/1.png" width="536" height="317">
 
 <h2> &nbsp;State Variables:</h2>
 
@@ -47,39 +47,39 @@ T = Temperature of the water in the tank
 
 The differential equation describing the change of the height of the water in the tank can be written as:
 
-<img src="2.png" width="222" height="62">
+<img src="images/2.png" width="222" height="62">
 
 relation between the pressure and the height in the tank:
 
-<img src="3.png" width="100" height="34">
+<img src="images/3.png" width="100" height="34">
 
 relation between the flow rate across the first fluid resistor and the pressures in the tank and accumulator:
 
-<img src="4.png" width="127" height="55">
+<img src="images/4.png" width="127" height="55">
 
 the change of the height of the water in the accumulator is:
 
-<img src="5.png" width="182" height="56">
+<img src="images/5.png" width="182" height="56">
 
 relation between the height of the water in the accumulator and the pressure in the accumulator:
 
-<img src="6.png" width="181" height="60">
+<img src="images/6.png" width="181" height="60">
 
 realtion between the pressure in the accumulator and the flow rate across the second fluid resistor:
 
-<img src="5.png" width="76" height="49">
+<img src="images/7.png" width="76" height="49">
 
 substituting the above two relations in the differential equation for the height of the water in the accumulator:
 
-<img src="5.png" width="310" height="60">
+<img src="images/8.png" width="310" height="60">
 
 The energy conservation equation of the tank is given by:
 
-<img src="5.png" width="396" height="54">
+<img src="images/9.png" width="396" height="54">
 
 The final equation:
 
-<img src="5.png" width="316" height="52">
+<img src="images/10.png" width="316" height="52">
 
 Parameters of the system (all units are SI units):
 ```
@@ -98,61 +98,61 @@ uc = 0.005 m3/s
 
 The state model:
 
-<img src="5.png" width="333" height="180">
+<img src="images/11.png" width="333" height="180">
 
 Now we find the **state metrices** from the above equation. Since the system is single-input single-output with one equilibrium point, the **transfer function** of the system can be found from the equation below:
 
-<img src="5.png" width="221" height="95">
+<img src="images/12.png" width="221" height="95">
 
 The results in **MATLAB**:
 
-<img src="5.png" width="520" height="524">
+<img src="images/13.png" width="520" height="524">
 
 Root Locus graph:
 
-<img src="5.png" width="485" height="485">
+<img src="images/14.png" width="485" height="485">
 
 Bode Plot:
 
-<img src="5.png" width="630" height="332">
+<img src="images/15.png" width="630" height="332">
 
 Gain Margin and Phase Margin diagram:
 
-<img src="5.png" width="400" height="310">
+<img src="images/16.png" width="400" height="310">
 
 Next, we design a **compensator** and study the rise time and settling time in MATLAB:
 
-<img src="5.png" width="570" height="377">
+<img src="images/17.png" width="570" height="377">
 
 Root Locus graph after applying the compensator:
 
-<img src="5.png" width="480" height="377">
+<img src="images/18.png" width="480" height="377">
 
 Bode Plot after applying the compensator:
 
-<img src="5.png" width="480" height="380">
+<img src="images/19.png" width="480" height="380">
 
 Gain Margin and Phase Margin diagram after applying the compensator:
 
-<img src="5.png" width="515" height="267">
+<img src="images/20.png" width="515" height="267">
 
 Simulation of the system before applying **turbulence**:
 
-<img src="5.png" width="560" height="260">
+<img src="images/21.png" width="560" height="260">
 
 Applying turbulence:
 
-<img src="5.png" width="560" height="220">
+<img src="images/22.png" width="560" height="220">
 
-<img src="5.png" width="660" height="310">
+<img src="images/23.png" width="660" height="310">
 
 Modeling the nonlinear equations in **Simulink**:
 
-<img src="5.png" width="650" height="214">
+<img src="images/24.png" width="650" height="214">
 
 Before and after turbulence:
 
-<img src="5.png" width="640" height="480">
+<img src="images/25.png" width="640" height="480">
 
 <img src="5.png" width="645" height="413">
 
