@@ -118,42 +118,42 @@ Bode Plot:
 
 Gain Margin and Phase Margin diagram:
 
-<img src="images/18.png" width="267" height="207">
+<img src="images/18.png" width="400" height="310">
 
 Next, we design a **compensator** and study the rise time and settling time in MATLAB:
 
-<img src="images/1.png" width="570" height="377">
+<img src="images/1.png" width="380" height="251">
 
 Root Locus graph after applying the compensator:
 
-<img src="images/19.png" width="480" height="377">
+<img src="images/19.png" width="320" height="251">
 
 Bode Plot after applying the compensator:
 
-<img src="images/20.png" width="480" height="380">
+<img src="images/20.png" width="320" height="253">
 
 Gain Margin and Phase Margin diagram after applying the compensator:
 
-<img src="images/21.png" width="515" height="267">
+<img src="images/21.png" width="343" height="178">
 
 Simulation of the system before applying **turbulence**:
 
-<img src="images/23.png" width="560" height="260">
+<img src="images/23.png" width="373" height="173">
 
 Applying turbulence:
 
-<img src="images/22.png" width="560" height="220">
+<img src="images/22.png" width="373" height="147">
 
-<img src="images/24.png" width="660" height="310">
+<img src="images/24.png" width="440" height="207">
 
 Modeling the nonlinear equations in **Simulink**:
 
-<img src="images/25.png" width="650" height="214">
+<img src="images/25.png" width="433" height="143">
 
 Before and after turbulence:
 
-<img src="images/26.png" width="640" height="480">
+<img src="images/26.png" width="427" height="320">
 
-<img src="images/27.png" width="645" height="413">
+<img src="images/27.png" width="430" height="275">
 
 As we see, the function of the controller is acceptable since adding noise to the system didn't change the results much.
