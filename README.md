@@ -110,15 +110,15 @@ The results in **MATLAB**:
 
 Root Locus graph:
 
-<img src="images/16.png" width="485" height="485">
+<img src="images/16.png" width="385" height="385">
 
 Bode Plot:
 
-<img src="images/17.png" width="630" height="332">
+<img src="images/17.png" width="420" height="221">
 
 Gain Margin and Phase Margin diagram:
 
-<img src="images/18.png" width="400" height="310">
+<img src="images/18.png" width="267" height="207">
 
 Next, we design a **compensator** and study the rise time and settling time in MATLAB:
 
