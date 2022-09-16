@@ -122,7 +122,7 @@ Gain Margin and Phase Margin diagram:
 
 Next, we design a **compensator** and study the rise time and settling time in MATLAB:
 
-<img src="images/1.png" width="380" height="251">
+<img src="images/1.png" width="570" height="376">
 
 Root Locus graph after applying the compensator:
 
